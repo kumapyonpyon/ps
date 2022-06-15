@@ -1,0 +1,27 @@
+@charset "shift-jis";
+
+#gnavi {
+    margin:                      0px 0px;
+    padding:                     0px 0px;
+    width:                        1024px;
+    overflow:                     hidden;
+}
+
+#gnavi li { 
+	list-style-type:                none;
+	display:                      inline;
+}  
+
+#gnavi a {  
+    float:                         left;
+    height:                        40px;
+    width:                        256px;
+    text-align :                 center;
+    line-height:                   40px;
+	background: url(./but_40_40.png);
+}  
+
+#gnavi a:hover {
+	background: url(./but_40_40a.png);
+}
+

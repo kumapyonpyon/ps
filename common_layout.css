@@ -1,0 +1,102 @@
+@charset "shift-jis";
+
+/**************** TAG ****************/
+
+body {
+     padding:                         0;
+     margin:                          0;
+     line-height:                 1.5em;
+     letter-spacing:                1px;
+     font-family:'ÉÅÉCÉäÉI',Meiryo,'ÇlÇr ÇoÉSÉVÉbÉN',sans-serif;
+}
+
+img {border: none;}
+
+.ImgLeft {
+margin:0px 20px;
+float:left;
+}
+
+.ImgRight {
+margin:0px 20px;
+float:right;
+}
+
+.clearBoth{
+clear:both;
+}
+
+a:link { color:#000000; text-decoration:none;}
+a:visited { color:#000000; text-decoration:none;}
+a:hover { color:#000000; text-decoration:underline;}
+a:active { color:#000000; text-decoration:underline;}
+
+h1{
+margin-top:0px;
+margin-top:0px;
+display:none
+}
+
+h2{
+     margin-top:                   20px;
+     margin-bottom:                 5px;
+     padding:           4px 0px 0px 4px;
+     font-size:                   1.4em;
+     border-bottom:  3px #000000 double;
+     font-weight:                normal;
+}
+
+h3{
+     margin-top:                   10px;
+     margin-bottom:                10px;
+     padding:          4px 4px 4px 10px;
+     border-left:     4px solid #000000;
+     background:                #bdd7ce;
+     color:                     #000000;
+     font-size:                   1.0em;
+     font-weight:                normal;
+}
+
+br{
+margin-top:                   50px;
+margin-bottom:                50px;
+}
+
+/**************** Div *****************/
+div.blockH1 {
+     background-repeat: repeat-x;
+}
+
+div.blockH1j {
+     margin-right:                 auto;
+     margin-left:                  auto;
+     width:                      1024px;
+}
+
+div.blockGif {
+     background-image: url('./but_40_40.png');
+     background-repeat: repeat-x;
+}
+
+div.blockNv {
+     margin-right:                 auto;
+     margin-left:                  auto;
+     width:                       950px;
+}
+
+div.blockB {
+     margin-top:                   10px;
+     margin-right:                 auto;
+     margin-left:                  auto;
+     width:                       950px;
+}
+
+div.blockD {
+     margin-right:                 auto;
+     margin-left:                  auto;
+     width:                       950px;
+     clear:                        both;
+     font-size:                     95%;
+     text-align:                 center;
+}
+
